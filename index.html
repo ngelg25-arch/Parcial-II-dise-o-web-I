@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pincel & Lienzo | Venta de Pinturas</title>
+    <title>Arte Creativo | Venta de Pinturas</title>
     <!-- aqui cargamos los estilos de css, que no se nos olvide -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,8 +12,8 @@
     <!-- barra de arriba con el logo y el nombre del sitio -->
     <header class="header-principal">
         <div class="logo-container">
-            <h1 class="logo">Pincel & <span>Lienzo</span></h1>
-            <p class="slogan">arte original en cada lienzo</p>
+            <h1 class="logo">Arte <span>Creativo</span></h1>
+            <p class="slogan">Arte original en cada lienzo</p>
         </div>
         
         <!-- menu de navegacion pa moverse por la pagina -->
@@ -22,79 +22,79 @@
                 ☰
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#inicio">inicio</a></li>
-                <li><a href="#galeria">galería</a></li>
-                <li><a href="#precios">guía de precios</a></li>
-                <li><a href="#contacto">contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#precios">Guía de Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- contenido principal de la pagina -->
     <main id="inicio">
-        <!-- seccion de bienvenida con la foto grande -->
+        <!-- seccion de bienvenida sin la foto de fondo, alineada a la izquierda -->
         <section class="hero">
             <div class="hero-content">
-                <h2>dale vida a tus espacios con arte auténtico</h2>
-                <p>explora nuestra colección de pinturas en lienzo hechas a mano, disponibles en varios tamaños y estilos.</p>
-                <a href="#galeria" class="btn-cta">ver cuadros</a>
+                <h2>Dale vida a tus espacios con arte auténtico</h2>
+                <p>Explora nuestra colección de pinturas en lienzo hechas a mano, disponibles en varios tamaños y estilos.</p>
+                <a href="#galeria" class="btn-cta">Ver Cuadros</a>
             </div>
         </section>
 
         <!-- seccion donde mostramos las pinturas pa vender -->
         <section id="galeria" class="gallery-section">
             <div class="section-title">
-                <h2>galería de pinturas</h2>
-                <p>filtra por tamaño para encontrar la obra perfecta para ti.</p>
+                <h2>Galería de Pinturas</h2>
+                <p>Filtra por tamaño para encontrar la obra perfecta para ti.</p>
             </div>
 
             <!-- botones para filtrar los cuadros por tamaño -->
             <div class="filters">
-                <button class="filter-btn active" data-filter="all">todos</button>
-                <button class="filter-btn" data-filter="pequeno">pequeño (30x40 cm)</button>
-                <button class="filter-btn" data-filter="mediano">mediano (50x70 cm)</button>
-                <button class="filter-btn" data-filter="grande">grande (80x100 cm)</button>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="pequeno">Pequeño (30x40 cm)</button>
+                <button class="filter-btn" data-filter="mediano">Mediano (50x70 cm)</button>
+                <button class="filter-btn" data-filter="grande">Grande (80x100 cm)</button>
             </div>
 
             <!-- la cajita donde van los cuadros acomodados en cuadricula -->
             <div class="gallery-grid">
                 <article class="card" data-category="pequeno">
-                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80" alt="Atardecer abstracto">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Atardecer abstracto">
                     <div class="card-body">
-                        <h3>atardecer abstracto</h3>
-                        <p class="size">tamaño: pequeño (30x40 cm)</p>
+                        <h3>Atardecer Abstracto</h3>
+                        <p class="size">Tamaño: Pequeño (30x40 cm)</p>
                         <p class="price">$45.00</p>
-                        <button class="btn-buy" data-title="Atardecer Abstracto">comprar</button>
+                        <button class="btn-buy" data-title="Atardecer Abstracto">Comprar</button>
                     </div>
                 </article>
 
                 <article class="card" data-category="mediano">
                     <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80" alt="Geometría moderna">
                     <div class="card-body">
-                        <h3>geometría moderna</h3>
-                        <p class="size">tamaño: mediano (50x70 cm)</p>
+                        <h3>Geometría Moderna</h3>
+                        <p class="size">Tamaño: Mediano (50x70 cm)</p>
                         <p class="price">$85.00</p>
-                        <button class="btn-buy" data-title="Geometría Moderna">comprar</button>
+                        <button class="btn-buy" data-title="Geometría Moderna">Comprar</button>
                     </div>
                 </article>
 
                 <article class="card" data-category="grande">
-                    <img src="https://images.unsplash.com/photo-1556139930-c23fa4a5f934?auto=format&fit=crop&w=600&q=80" alt="Naturaleza viva">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80" alt="Naturaleza viva">
                     <div class="card-body">
-                        <h3>naturaleza viva</h3>
-                        <p class="size">tamaño: grande (80x100 cm)</p>
+                        <h3>Naturaleza Viva</h3>
+                        <p class="size">Tamaño: Grande (80x100 cm)</p>
                         <p class="price">$150.00</p>
-                        <button class="btn-buy" data-title="Naturaleza Viva">comprar</button>
+                        <button class="btn-buy" data-title="Naturaleza Viva">Comprar</button>
                     </div>
                 </article>
 
                 <article class="card" data-category="mediano">
                     <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80" alt="Olas de colores">
                     <div class="card-body">
-                        <h3>olas de colores</h3>
-                        <p class="size">tamaño: mediano (50x70 cm)</p>
+                        <h3>Olas de Colores</h3>
+                        <p class="size">Tamaño: Mediano (50x70 cm)</p>
                         <p class="price">$90.00</p>
-                        <button class="btn-buy" data-title="Olas de Colores">comprar</button>
+                        <button class="btn-buy" data-title="Olas de Colores">Comprar</button>
                     </div>
                 </article>
             </div>
@@ -103,35 +103,35 @@
         <!-- tabla para que la gente vea los precios segun el tamaño -->
         <section id="precios" class="price-guide-section">
             <div class="section-title">
-                <h2>guía de tamaños y precios</h2>
+                <h2>Guía de Tamaños y Precios</h2>
             </div>
             <div class="table-container">
                 <table class="price-table">
                     <thead>
                         <tr>
-                            <th>categoría</th>
-                            <th>dimensiones</th>
-                            <th>ideal para</th>
-                            <th>precio estimado</th>
+                            <th>Categoría</th>
+                            <th>Dimensiones</th>
+                            <th>Ideal para</th>
+                            <th>Precio Estimado</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>pequeño</td>
+                            <td>Pequeño</td>
                             <td>30 x 40 cm</td>
-                            <td>oficinas, escritorios, espacios reducidos</td>
+                            <td>Oficinas, escritorios, espacios reducidos</td>
                             <td>$40 - $60</td>
                         </tr>
                         <tr>
-                            <td>mediano</td>
+                            <td>Mediano</td>
                             <td>50 x 70 cm</td>
-                            <td>salas de estar, pasillos, dormitorios</td>
+                            <td>Salas de estar, pasillos, dormitorios</td>
                             <td>$75 - $110</td>
                         </tr>
                         <tr>
-                            <td>grande</td>
+                            <td>Grande</td>
                             <td>80 x 100 cm</td>
-                            <td>paredes principales, salas amplias</td>
+                            <td>Paredes principales, salas amplias</td>
                             <td>$130 - $200</td>
                         </tr>
                     </tbody>
@@ -144,25 +144,25 @@
     <footer id="contacto" class="footer-principal">
         <div class="footer-content">
             <div class="footer-col">
-                <h3>pincel & lienzo</h3>
-                <p>arte original en lienzo directamente para embellecer tus espacios favoritos.</p>
+                <h3>Arte Creativo</h3>
+                <p>Arte original en lienzo directamente para embellecer tus espacios favoritos.</p>
             </div>
             <div class="footer-col">
-                <h3>enlaces rápidos</h3>
+                <h3>Enlaces Rápidos</h3>
                 <ul>
-                    <li><a href="#inicio">inicio</a></li>
-                    <li><a href="#galeria">galería</a></li>
-                    <li><a href="#precios">precios</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#precios">Precios</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h3>contacto</h3>
-                <p>email: contacto@pincellylienzo.com</p>
-                <p>teléfono: +503 2233-4455</p>
+                <h3>Contacto</h3>
+                <p>Email: contacto@artecreativo.com</p>
+                <p>Teléfono: +503 2233-4455</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Pincel & Lienzo. todos los derechos reservados.</p>
+            <p>&copy; 2026 Arte Creativo. Todos los derechos reservados.</p>
         </div>
     </footer>
 
@@ -170,5 +170,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
